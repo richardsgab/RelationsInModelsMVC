@@ -16,12 +16,12 @@
         {
             List<Employee> employees = new List<Employee>
             {
-                new Employee { Name = "John", Position = "Manager", Department = new Department { Name = "HR" } },
-                new Employee { Name = "Jane", Position = "Staff", Department = new Department { Name = "HR" } },
-                new Employee { Name = "Doe", Position = "Manager", Department = new Department { Name = "IT" } },
-                new Employee { Name = "Smith", Position = "Staff", Department = new Department { Name = "IT" } },
-                new Employee { Name = "Alex", Position = "Manager", Department = new Department { Name = "Finance" } },
-                new Employee { Name = "Ava", Position = "Staff", Department = new Department { Name = "Finance" } }
+                new Employee { Id= 1,Name = "John", Position = "Manager", Department = new Department { Name = "HR" } },
+                new Employee { Id= 2,Name = "Jane", Position = "Staff", Department = new Department { Name = "HR" } },
+                new Employee { Id= 3,Name = "Doe", Position = "Manager", Department = new Department { Name = "IT" } },
+                new Employee { Id= 4,Name = "Smith", Position = "Staff", Department = new Department { Name = "IT" } },
+                new Employee { Id= 5,Name = "Alex", Position = "Manager", Department = new Department { Name = "Finance" } },
+                new Employee { Id= 6,Name = "Ava", Position = "Staff", Department = new Department { Name = "Finance" } }
             };
             return employees;
         }
